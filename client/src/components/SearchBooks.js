@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useQuery } from '@apollo/client';
-import { GET_SEARCH_RESULTS } from '../../../shared/queries/queries'; // Define your queries file
+import { GET_SEARCH_RESULTS } from '../../../shared/queries/queries'; 
 
 const SearchBooks = () => {
   const [searchTerm, setSearchTerm] = useState('');

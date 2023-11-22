@@ -1,7 +1,7 @@
 import React from 'react';
 import { useQuery, useMutation } from '@apollo/client';
-import { GET_SAVED_BOOKS } from '../../../queries'; // Define your queries file
-import { REMOVE_BOOK } from '../../../mutations'; // Define your mutations file
+import { GET_SAVED_BOOKS } from '../../../queries'; 
+import { REMOVE_BOOK } from '../../../mutations'; 
 
 const SavedBooks = () => {
   const { loading, error, data } = useQuery(GET_SAVED_BOOKS);

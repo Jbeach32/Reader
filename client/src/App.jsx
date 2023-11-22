@@ -6,7 +6,7 @@ import LoginSignup from './components/LoginSignup';
 import SavedBooks from './components/SavedBooks';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000', // Replace with your actual server endpoint
+  uri: 'http://localhost:4000', 
   cache: new InMemoryCache(),
 });
 

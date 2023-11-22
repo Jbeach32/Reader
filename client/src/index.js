@@ -7,10 +7,10 @@ import { InMemoryCache } from '@apollo/client/cache';
 import { createHttpLink } from '@apollo/client/link/http';
 
 import App from './App';
-import { GET_SEARCH_RESULTS, GET_SAVED_BOOKS } from '../../shared/queries'; // Adjust the path accordingly
+import { GET_SEARCH_RESULTS, GET_SAVED_BOOKS } from '../../shared/queries'; 
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:4000/graphql', // Replace with your actual GraphQL server endpoint
+  uri: 'http://localhost:4000/graphql', 
 });
 
 const client = new ApolloClient({

@@ -21,14 +21,14 @@ const books = [
       username: 'Jbeach',
       email: 'joshbeach2007@gmail.com',
       password: 'password1',
-      savedBooks: [books[0], books[1]], // User 1 has saved Book 1 and Book 2
+      savedBooks: [books[0], books[1]], 
     },
     {
       id: '2',
       username: 'Abeach',
       email: 'abeach@example.com',
       password: 'password2',
-      savedBooks: [books[0]], // User 2 has saved only Book 1
+      savedBooks: [books[0]], 
     },
   ];
   
